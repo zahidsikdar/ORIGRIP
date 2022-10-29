@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     
@@ -15,15 +17,15 @@
         <div class="max-width">
             <div class="logo"><a href="#">Portfo<span>lio</span></a></div>
             <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Teams</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <!-- <li><a href="#teams">Teams</a></li> -->
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="menu-btn">
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa fa-bars"></i>
             </div>
 
         </div>
@@ -38,13 +40,187 @@
             <div class="text-1">Hello, my name is</div>
             <div class="text-2">Zahid Sikdar</div>
             <div class="text-3">And I'm a <span>Web Developer</span></div>
+            <a href="#">Hire me</a>
 
         </div>
 
     </div>
 </section>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-   <script src="script.js"></script> 
+<section class="about" id="about">
+    <div class="max-width">
+        <h2 class="title">About me</h2>
+        <div class="about-content">
+            <div class="column left">
+                <img src="images/one.jpg" alt="">
+            </div>
+            <div class="column right">
+                <div class="text">I'm Zahid and I'm a <span>Web Developer</span></div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut libero cupiditate ad ratione repellat. At, modi ipsa excepturi aspernatur asperiores accusamus veritatis, debitis voluptatibus facere inventore alias impedit eos quis eligendi recusandae quibusdam sunt minus architecto sapiente natus corrupti quam. Fuga vel velit adipisci laboriosam, cumque sint at veritatis illo est culpa rerum, expedita maxime aspernatur mollitia placeat animi numquam.</p>
+                <a href="#">Download CV</a>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Services section starts -->
+
+<section class="services" id="services">
+    <div class="max-width">
+        <h2 class="title">My Project</h2>
+        <div class="serv-content">
+            <div class="card">
+                <div class="box">
+                
+                 <i class="fa fa-paint-brush"></i>
+                 <div class="text">Gym-Landing Page</div>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, omnis aliquam. Incidunt illum fugit inventore.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="box">
+                 <i class="fa fa-list"></i>
+                 <div class="text">Temperture Converter</div>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, omnis aliquam. Incidunt illum fugit inventore.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                 <i class="fa fa-code"></i>
+                 <div class="text">To do List</div>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, omnis aliquam. Incidunt illum fugit inventore.</p>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+</section>
+
+<section class="skills" id="skills">
+    <div class="max-width">
+        <h2 class="title">My skills</h2>
+        <div class="skills-content">
+            <div class="column left">
+                <div class="text">My creative skills & experiences.</div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima quos, id quaerat eos voluptatum aliquid consequuntur officiis nihil voluptate error aperiam perferendis debitis iure. Nulla, dolores quod non odit doloribus, iste esse libero, recusandae natus eos aspernatur fugiat harum totam. Similique quisquam ipsa aliquid expedita quia voluptate consequuntur, at iusto, quidem culpa illum! Dignissimos dolor omnis a dicta nam sequi.</p>
+                <a href="#">Read more</a>
+            </div>
+            <div class="column right">
+                <div class="bars">
+                    <div class="info">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="line html"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>CSS</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line css"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Javascript</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="line js"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Git & Github</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="line git"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>MongoDB</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="line mdb"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- contact section start  -->
+
+<section class="contact" id="contact">
+    <div class="max-width">
+        <div class="title">Contact me</div>
+        <div class="contact-content">
+            <div class="column left">
+                <div class="text">Get In Touch</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, consequatur corporis? Impedit eius, minus dignissimos iure consectetur hic sunt incidunt aspernatur quis, suscipit modi eaque asperiores possimus consequuntur tenetur vel!</p>
+                <div class="icons">
+                    <div class="row">
+                        <i class="fa fa-user"></i>
+                        <div class="info">
+                            <div class="head">Name</div>
+                            <div class="sub-title">Zahid Sikdar</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                        <i class="fa fa-map-marker"></i>
+                        <div class="info">
+                            <div class="head">Address</div>
+                            <div class="sub-title">Guwahati,Assam</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <i class="fa fa-envelope"></i>
+                        <div class="info">
+                            <div class="head">Email</div>
+                            <div class="sub-title">zahidsikdar786@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column right">
+                <div class="text">Message me </div>
+                <form action="#">
+                    <div class="fields">
+                        <div class="field name">
+                            <input type="text" placeholder="Name" required>
+                     
+                        </div>
+                    </div>
+                    <div class="field email">
+                            <input type="email" placeholder="Email" required>
+                     
+                    </div>
+                    <div class="field ">
+                            <input type="text" placeholder="Subject" required>
+                     
+                    </div>
+                    <div class="field textarea">
+                            <textarea  cols="30" rows="10" placeholder="Describe project..." required></textarea>
+                     
+                    </div>
+                    <div class="button">
+                            <button type="submit">Send message</button>
+                    </div>
+                
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- footer section start -->
+
+<footer>
+    <span>Created By <a href="#">Zahid Sikdar</a>| <span class="fa fa-copyright"></span>2022 All rights reserved</span>
+</footer>
+
+
+<script src="script.js"></script> 
 </body>
 </html>
